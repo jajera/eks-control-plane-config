@@ -1,0 +1,4 @@
+# Zensical (Patina) pages use HTML for layout: heroes, path cards, occupancy
+# bars, and migration columns. md_in_html is enabled in zensical.toml.
+MD013: false
+MD033: false
