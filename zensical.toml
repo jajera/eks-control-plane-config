@@ -1,7 +1,7 @@
 [project]
 site_name = "Amazon EKS control plane parameters"
 site_description = "What Amazon EKS control plane configuration changes, and what stays the same on clusters created before the feature."
-site_url = "https://jajera.github.io/eks-control-plane-config/"
+site_url = "https://eks-control-plane-config.johna.kiwi/"
 nav = [
   { "Overview" = "index.md" },
   { "Before this feature" = "prior.md" },

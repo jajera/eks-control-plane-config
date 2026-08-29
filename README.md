@@ -2,7 +2,7 @@
 
 Amazon EKS (12 August 2026) lets you set four kube-apiserver, kube-scheduler, and kube-controller-manager fields through the EKS API. Existing clusters keep their previous behaviour until you call `UpdateClusterConfig`.
 
-**Live site:** [jajera.github.io/eks-control-plane-config](https://jajera.github.io/eks-control-plane-config/)
+**Live site:** [eks-control-plane-config.johna.kiwi](https://eks-control-plane-config.johna.kiwi/)
 
 This repo adds context to the [What's New announcement](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters/) and the [Amazon EKS user guide](https://docs.aws.amazon.com/eks/latest/userguide/control-plane-configuration.html). The AWS walkthrough shows how to enable `MostAllocated`. These pages describe what that change does and does not do.
 
