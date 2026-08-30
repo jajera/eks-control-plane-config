@@ -2,6 +2,14 @@
 
 {% block extrahead %}
   {{ super() }}
+  <!-- Google tag (gtag.js) — shared johna.kiwi stream -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GP64SX615"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6GP64SX615');
+  </script>
   <link rel="stylesheet" href="{{ 'assets/stylesheets/patina.css' | url }}">
   <link rel="apple-touch-icon" href="{{ 'assets/apple-touch-icon.png' | url }}">
   {% set ns = namespace(
